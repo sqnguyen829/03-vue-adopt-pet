@@ -1,24 +1,25 @@
 # 03-vue-adopt-pet
 
-## Project setup
-```
-npm install
-```
+At the start of creating the app I imported vuex, routes, css using the custom built along witht the default stuff
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Error occurred when trying to seperate the config out into their own files so I just avoid doing that part
 
-### Compiles and minifies for production
-```
-npm run build
-```
+npm install vue bootstrap bootstrap-vue
 
-### Lints and fixes files
-```
-npm run lint
-```
+import Vue from 'vue'
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Import Bootstrap an BootstrapVue CSS files (order is important)
+
+import 'bootstrap/dist/css/bootstrap.css'
+
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// Make BootstrapVue available throughout your project
+
+Vue.use(BootstrapVue)
+
+// Optionally install the BootstrapVue icon components plugin
+
+Vue.use(IconsPlugin)
