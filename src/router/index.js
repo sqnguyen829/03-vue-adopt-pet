@@ -13,17 +13,17 @@ const routes = [
     component: Home
   },
   {
-    path: '/pet',
+    path: '/pets/:species/:id',
     name: 'Pet',
     component: Pet
   },
   {
-    path: '/cat',
+    path: '/cats',
     name: 'Cat',
     component: Cat
   },
   {
-    path: '/dog',
+    path: '/dogs',
     name: 'Dog',
     component: Dog
   }

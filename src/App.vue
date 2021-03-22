@@ -2,11 +2,13 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/pet">Pet</router-link> |
-      <router-link to="/cat">Cats</router-link> |
-      <router-link to="/dog">Dogs</router-link>
+      <router-link to="/cats">Cats</router-link> |
+      <router-link to="/dogs">Dogs</router-link>
     </div>
-    <router-view/>
+    <!-- b-container cleans up the table from bootstrap -->
+    <b-container>
+      <router-view/>
+    </b-container>
   </div>
 </template>
 
