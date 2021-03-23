@@ -1,5 +1,7 @@
 # 03-vue-adopt-pet
 
+npm run lint -- --fix
+
 At the start of creating the app I imported vuex, routes, css using the custom built along witht the default stuff
 
 Error occurred when trying to seperate the config out into their own files so I just avoid doing that part
